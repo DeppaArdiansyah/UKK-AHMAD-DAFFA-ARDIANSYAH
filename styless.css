@@ -1,0 +1,190 @@
+/*Reset*/
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, sans-serif; 
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+header {
+    background-color: bisque;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black
+}
+
+.btn-order {
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+/*Hero Section*/
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #fafafa;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-content {
+    max-width: 600px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.btn-primary {
+    background-color: rgb(238, 148, 30);
+    color: antiquewhite;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+/*Product*/
+#products h1 {
+    padding: 40px 0 0 40px;
+    text-align: center;
+    background-color: azure;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: azure;
+}
+
+.product {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.product img {
+    width: auto;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/*Testimonial*/
+#testimonials {
+    background-color: #fafafa;
+    padding: 10px;
+    text-align: left;
+}
+
+.testimonials {
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+
+}
+
+.testimonial {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+/*Contact Us Section*/
+#contact {
+    padding: 40px;
+    text-align: center;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(218, 53, 38);
+    color: rgb(0, 0, 0);
+    border: 0;
+    cursor: pointer;
+}
+
+/*Footer*/
+footer {
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+
+}
+
+footer p {
+    margin: 10px ;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+    
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+
+/*Media Responsivess*/
+
